@@ -1,0 +1,559 @@
+{
+    "ColdSandwiches": [
+        {
+            "id": "1",
+            "title": "Chicken Salad",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "Our Chicken Salad Cold Sandwich offers a delightful blend of tender, seasoned chicken salad with a creamy texture, complemented by fresh lettuce and tomatoes, all nestled between two slices of artisan bread. A perfect choice for a light and satisfying meal that's bursting with flavor.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "2",
+            "title": "Anchor Turkey",
+            "videoUrl": "sample.mp4",
+            "description": "The Anchor Turkey Cold Sandwich is a classic favorite. Thinly sliced premium turkey, avocado, crispy bacon, and creamy mayonnaise create a mouthwatering combination, served on fresh, soft bread. An irresistible taste adventure that's perfect for any occasion.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "3",
+            "title": "Streamer Club",
+            "videoUrl": "sample.mp4",
+            "description": "Set sail with our Streamer Club Cold Sandwich, featuring honey-glazed ham, turkey, bacon, Swiss and cheddar cheeses, lettuce, tomatoes, and our zesty club sauce on ciabatta bread. It's a taste explosion that's as bold as it is delicious.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "4",
+            "title": "Veggie Delight",
+            "videoUrl": "sample.mp4",
+            "description": "Our Veggie Delight Cold Sandwich is a celebration of fresh, crisp vegetables, including cucumbers, tomatoes, lettuce, and red onions, all harmonizing with creamy hummus. Served on your choice of fresh, artisan bread, it's a wholesome, flavorful choice for those seeking a vegetarian delight.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "5",
+            "title": "Kids Turkey & Cheddar",
+            "videoUrl": "sample.mp4",
+            "description": "The Kids Turkey & Cheddar Cold Sandwich is a pint-sized treat for young appetites. This mini delight features tender turkey and mild cheddar cheese on soft, kid-friendly bread—a perfect choice to make your child's mealtime extra special.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        }
+    ],
+    "HotSandwiches": [
+        {
+            "id": "1",
+            "title": "Italian Beef",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "Savor the bold flavors of our Italian Beef sandwich, featuring thinly sliced roast beef au jus, sautéed green bell peppers, and melted provolone cheese, all piled high on a fresh Italian roll.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "2",
+            "title": "BBQ Chicken",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "Indulge in the sweet and smoky delight of our BBQ Chicken dish. Tender grilled chicken breast slathered in our signature barbecue sauce, served with a side of coleslaw and cornbread.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "3",
+            "title": "Grilled Cheese",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "A timeless classic, our Grilled Cheese sandwich is a comforting combination of gooey melted cheddar and Swiss cheese between two perfectly toasted slices of bread.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "4",
+            "title": "Grilled Cheese - Extreme",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "Take your love for grilled cheese to the next level with our Grilled Cheese Extreme. Loaded with a medley of cheeses, crispy bacon, and caramelized onions, this is a true cheese lover's dream.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "5",
+            "title": "Mississippi Club",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "Our Mississippi Club sandwich is a mouthwatering masterpiece. Stacked with tender turkey, hickory-smoked bacon, avocado, lettuce, and tomato, all held together with a zesty chipotle mayo.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "6",
+            "title": "BLT-CA",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "The BLT-CA offers a delightful twist on a classic BLT. Crispy bacon, fresh lettuce, ripe tomatoes, and creamy avocado come together in perfect harmony in this satisfying sandwich.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "7",
+            "title": "Cheddar Chicken Melt",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "Enjoy the rich, cheesy goodness of our Cheddar Chicken Melt. Grilled chicken breast topped with sharp cheddar, smoky bacon, and a drizzle of honey mustard, all served on a warm bun.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "8",
+            "title": "Orchard Turkey",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "The Orchard Turkey sandwich is a delightful blend of oven-roasted turkey, crisp apple slices, cranberry mayo, and fresh greens, creating a harmonious combination of sweet and savory.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "9",
+            "title": "Kids Grilled Cheese",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "Perfect for the little ones, our Kids Grilled Cheese is a smaller portion of the classic, ensuring a tasty and comforting meal for even the pickiest eaters.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        }
+    ],
+    "Pastries":[
+        {
+            "id": "1",
+            "title": "Scones",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "Our scones are a delightful blend of crumbly texture and sweet or savory flavors. Whether you prefer classic fruit scones, cheesy delights, or something more unique, our scones are the perfect accompaniment to your tea or coffee.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "2",
+            "title": "Muffins",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "Our muffins are baked to perfection, offering a variety of flavors to please every palate. From the timeless blueberry to indulgent chocolate chip, there's a muffin for everyone, making for a satisfying snack or breakfast treat.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "3",
+            "title": "Cinnamon Rolls",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "Dive into a swirl of sweetness with our Cinnamon Rolls. Freshly baked and drizzled with a mouthwatering glaze, these rolls are a warm and comforting treat, perfect for breakfast or dessert.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "4",
+            "title": "Cookies",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "Our cookies are baked with love and care, resulting in a delectable array of choices. Whether you crave chewy chocolate chip, buttery shortbread, or a special seasonal creation, our cookies are a sweet reward for your taste buds.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "5",
+            "title": "Protein Bites",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "For a guilt-free snack that satisfies your hunger and keeps you energized, try our Protein Bites. Packed with high-quality protein and a variety of flavors, they're the perfect on-the-go option for health-conscious individuals looking for a tasty and nutritious bite.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        }
+
+    ],
+    "Salads":[
+        {
+            "id": "1",
+            "title": "Chef Salad",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "Indulge in our Chef Salad, a culinary masterpiece that showcases a medley of fresh, crisp greens, tender turkey and ham, hard-boiled eggs, cheddar cheese, and a zesty vinaigrette dressing. It's a satisfying and well-balanced salad that's perfect for those seeking a classic favorite.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "2",
+            "title": "Ceasar Salad",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "Our Caesar Salad is a timeless classic, featuring crisp romaine lettuce, garlicky croutons, Parmesan cheese, and a creamy Caesar dressing. With its simplicity and bold flavors, it's the perfect choice for those who appreciate the beauty of a traditional salad.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "3",
+            "title": "Autumn Chopped Salad",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "Embrace the flavors of fall with our Autumn Chopped Salad. This delightful mix of mixed greens, roasted butternut squash, cranberries, and candied pecans is drizzled with a maple vinaigrette, capturing the essence of autumn in a single, mouthwatering dish.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "4",
+            "title": "Steamer Cobb Salad",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "Our Steamer Cobb Salad is a protein-packed delight, loaded with grilled chicken, hard-boiled eggs, bacon, ripe avocado, and crumbled blue cheese, all atop a bed of fresh greens. Served with your choice of dressing, it's a satisfying option for those craving a hearty and wholesome salad.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        }
+    ],
+    "Panning":[
+        {
+            "id": "1",
+            "title": "Bacon",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "Our crispy and savory bacon is a timeless favorite, expertly cooked to perfection for a mouthwatering breakfast or a delightful addition to any dish.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "2",
+            "title": "Chicken",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "Discover a world of flavors with our succulent chicken dishes. From tender grilled chicken to crispy fried options, our menu offers a variety of chicken delights to satisfy your cravings.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "3",
+            "title": "Egg Patties",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "Our fluffy and flavorful egg patties are the ideal breakfast addition. Whether served in a sandwich or as a side, they provide the perfect balance of taste and texture.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "4",
+            "title": "Italian Bread",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "Savor the rustic charm of our freshly baked Italian bread. With a crusty exterior and a soft, airy interior, it's the perfect accompaniment to any meal, adding a touch of Mediterranean authenticity to your dining experience.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        }
+    ],
+    "Pizza":[
+        {
+            "id": "1",
+            "title": "Chicken Bacon Ranch Flatbread",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "Our Chicken Bacon Ranch Flatbread is a culinary masterpiece that combines tender, grilled chicken, crispy bacon, and creamy ranch dressing atop a perfectly baked flatbread. This delightful fusion of flavors is sure to please your palate.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "2",
+            "title": "BBQ Chicken Flatbread",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "Dive into the mouthwatering world of our BBQ Chicken Flatbread. Featuring succulent pieces of barbecue-seasoned chicken, a drizzle of tangy barbecue sauce, and a blend of melted cheeses, this flatbread is a savory symphony that delivers a smoky and satisfying experience.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "3",
+            "title": "Three Cheese Flatbread",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "Our Three Cheese Flatbread is a cheese lover's dream. A harmonious trio of rich and melty cheeses spread generously over a perfectly baked flatbread, offering a simple yet irresistible option for those who appreciate the pure pleasure of cheese.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        }
+    ],
+    "Breakfast":[
+        {
+            "id": "1",
+            "title": "Bacon, Egg, & Cheese",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "Start your day with a mouthwatering breakfast classic - our Bacon, Egg, and Cheese sandwich. Crispy bacon, a fluffy scrambled egg, and melted cheddar cheese nestled between a fresh, warm bun.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "2",
+            "title": "Hot Turkey and Gouda",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "Delight your taste buds with our Hot Turkey and Gouda sandwich. Sliced turkey breast, melted Gouda cheese, and a savory aioli sauce combine for a warm and satisfying flavor explosion.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "3",
+            "title": "Miller's Sausage",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "Savor the taste of our signature Miller's Sausage. Crafted with the finest ingredients, these sizzling sausages are a hearty and flavorful choice, perfect for breakfast or any time of day.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "4",
+            "title": "Sweet and Spicy Chorizo",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "Spice up your meal with our Sweet and Spicy Chorizo option. This zesty chorizo sausage brings a perfect balance of sweetness and heat, ideal for those seeking a bold and flavorful choice.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        },
+        {
+            "id": "5",
+            "title": "Oatmeal",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "For a wholesome and hearty breakfast, try our Oatmeal. Made with whole oats and served with a variety of toppings such as fresh berries, nuts, and honey, it's a nutritious and comforting start to your day.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        }
+    ],
+    "Soup":[
+        {
+            "id": "1",
+            "title": "Mac and Cheese",
+            "videoUrl": "../../image/sample.mp4",
+            "description": "Prepare to be transported back to comfort food heaven with our delectable Mac and Cheese. Velvety, creamy cheese sauce coats tender macaroni, creating a rich and satisfying dish that's the epitome of cheesy goodness.",
+    "instructions": [
+        "Step 1: Toast two slices of artisan bread until they're golden brown.",
+        "Step 2: Spread a generous layer of chicken salad evenly on one of the toasted bread slices.",
+        "Step 3: Add fresh lettuce leaves on top of the chicken salad.",
+        "Step 4: Place a few slices of ripe tomato on the lettuce.",
+        "Step 5: Place the second toasted bread slice on top to create a sandwich.",
+        "Step 6: Slice the sandwich diagonally into two halves for easier handling and serving.",
+        "Step 7: Serve your Chicken Salad Sandwich with your favorite side dishes or enjoy it on its own."
+    ]
+        }
+    ]
+}
