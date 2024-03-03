@@ -40,7 +40,7 @@ const authenticateToken = (req, res, next) => {
 
 
 // MongoDB connection
-const mongoDBUri = 'mongodb://127.0.0.1:27017/FinalProject';
+const mongoDBUri = 'mongodb+srv://skutsch:<password>@cluster0.v6qqla5.mongodb.net/';
 mongoose.connect(mongoDBUri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
     console.log("MongoDB successfully connected");
@@ -80,7 +80,7 @@ const userSchema = new mongoose.Schema({
   IsAdmin: Number
 });
 
-const User = mongoose.model('User', userSchema, 'FinalProject');
+const User = mongoose.model('User', userSchema);
 
 module.exports = User; // If defined in a separate file
 
