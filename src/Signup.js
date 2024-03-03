@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import './login.css';
+import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
-const Login = ({ onLoginSuccess }) => {
+function Signup(){
+
   const [email, setEmail] = useState(''); // Changed from setUsername to setEmail
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
@@ -30,7 +31,7 @@ const Login = ({ onLoginSuccess }) => {
       if (response.ok) {
         localStorage.setItem('authToken', data.token);
         console.log("Token stored in localStorage Login:", data.token);
-        onLoginSuccess(true); // Update the login status in App.js
+        //onLoginSuccess(true); // Update the login status in App.js
         navigate('/Profile');
       } else {
         throw new Error(data.error || 'Failed to log in');
@@ -42,7 +43,9 @@ const Login = ({ onLoginSuccess }) => {
     }
   };
 
-  return (
+
+
+return (
     <div className="login-container">
       <h2>Login</h2>
       <form onSubmit={handleSubmit}>
@@ -67,15 +70,14 @@ const Login = ({ onLoginSuccess }) => {
           />
         </div>
         <button type="submit" disabled={loading}>
-          {loading ? 'Logging in...' : 'Login'}
+          {loading ? 'Logging in...' : 'Register'}
         </button>
         {error && <p className="error-message">{error}</p>}
       </form>
       <button type="button">
-        <Link to="/singup ">Register</Link>
+        <Link to="/login ">Login</Link>
       </button>
     </div>
   );
 };
-
-export default Login;
+export default Signup;

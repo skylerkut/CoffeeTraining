@@ -4,6 +4,7 @@ import Profile from './Profile';
 import Info from './Info';
 import Training from './Training';
 import Login from './Login';
+import Signup from './Signup';
 
 
 // Import the recipe components
@@ -52,6 +53,7 @@ const updateLoginStatus = (status) => {
           <Route path="/Profile" element={<PrivateRoute element={<Profile />} isLoggedIn={isLoggedIn} />} />
           <Route path="/info" element={<PrivateRoute element={<Info />} isLoggedIn={isLoggedIn} />} />
           <Route path="/training" element={<PrivateRoute element={<Training />} isLoggedIn={isLoggedIn} />} />
+          <Route path="/signup" element={<PrivateRoute element={<Signup />} isLoggedIn={isLoggedIn} />} />
 
 
           {/* Recipe Routes */}
