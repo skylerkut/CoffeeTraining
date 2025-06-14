@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom'; // Import if using React Router
-import './stylesheet.css'; // Uncomment if you have an external CSS file
+import '../stylesheet.css'; // Uncomment if you have an external CSS file
 
 function Training() {
 

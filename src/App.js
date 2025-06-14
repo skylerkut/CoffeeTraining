@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
-import Profile from './Profile';
-import Info from './Info';
-import Training from './Training';
-import Login from './Login';
-import Signup from './Signup';
+import Profile from './Routes/Profile';
+import Training from './Routes/Training';
+import Login from './Routes/Login';
+import ManagerDash from './Routes/ManagerDash';
 
 
 // Import the recipe components
@@ -20,40 +19,15 @@ import Soup from './recipes/Soup';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
-
-
 function App() {
-  useEffect(() => {
-    localStorage.removeItem('authToken');
-    // Any other initialization code can go here
-  }, []); // The empty array ensures this runs only once when the component mounts
 
-
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-
-  useEffect(() => {
-    const checkAuthStatus = () => {
-      const token = localStorage.getItem('authToken');
-      console.log('Token from localStorage:', token);
-      setIsLoggedIn(!!token);
-    };
-  
-    checkAuthStatus();
-  }, []);
-// Function to update isLoggedIn state
-const updateLoginStatus = (status) => {
-  setIsLoggedIn(status);
-};
   return (
     <Router>
       <div>
         <Routes>
-        <Route path="/" element={isLoggedIn ? <Navigate to="/Profile" /> : <Navigate to="/login" />} end />
-          <Route path="/login" element={<Login onLoginSuccess={() => updateLoginStatus(true)} />} />
-          <Route path="/Profile" element={<PrivateRoute element={<Profile />} isLoggedIn={isLoggedIn} />} />
-          <Route path="/info" element={<PrivateRoute element={<Info />} isLoggedIn={isLoggedIn} />} />
-          <Route path="/training" element={<PrivateRoute element={<Training />} isLoggedIn={isLoggedIn} />} />
-          <Route path="/signup" element={<PrivateRoute element={<Signup />} isLoggedIn={isLoggedIn} />} />
+        <Route path="/" element={<Login />} />
+          <Route path="/Profile" element={<PrivateRoute element={<Profile />} />} />
+          <Route path="/ManagerDash" element={<PrivateRoute element={<ManagerDash />} />} />
 
 
           {/* Recipe Routes */}
@@ -75,16 +49,16 @@ const updateLoginStatus = (status) => {
           <Route path="/recipes/soup/:soupid" element={<Soup />} />
           <Route path="/recipes/pastries/:pastriesid" element={<Pastries />} />
           <Route path="/recipes/panning/:panningid" element={<Panning />} />
-          {/* ... other routes ... */}
         </Routes>
       </div>
     </Router>
   );
 }
 
-// PrivateRoute is a custom higher-order component (HOC) that checks authentication
-function PrivateRoute({ element, isLoggedIn }) {
-  return isLoggedIn ? element : <Navigate to="/login" />;
+//PrivateRoute is a custom higher-order component (HOC) that checks authentication
+function PrivateRoute({ element }) {
+  const role = localStorage.getItem('employee'); //Check if logged in
+  return role ? element : <Navigate to="/" />; //Allow access if logged in
 }
 
 export default App;
