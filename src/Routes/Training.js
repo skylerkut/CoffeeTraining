@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom'; // Import if using React Router
 import '../stylesheet.css'; // Uncomment if you have an external CSS file
@@ -15,27 +14,6 @@ function Training() {
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
         crossorigin="anonymous" 
       />
-
-      {/* Navigation Bar */}
-      <header>
-        <div className="px-3 py-2 text-bg-dark border-bottom">
-          <div className="container">
-            <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-              <ul className="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-                <li>
-                  <Link to="/Profile" className="nav-link text-white">Profile</Link>
-                </li>
-                <li>
-                  <Link to="/info" className="nav-link text-white">Info</Link>
-                </li>
-                <li>
-                  <Link to="/training" className="nav-link text-white">Select Menu</Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </header>
 
       {/* Main Content */}
       <main className="container">

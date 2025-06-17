@@ -11,7 +11,7 @@ const Login = () => {
     if (account === 'manager') {
       navigate('/ManagerDash'); //Nav to manager dashbaord
     } else {
-      navigate('/Profile'); //to employee profile
+      navigate('/EmployeeDash'); //to employee profile
     }
   };
 

@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
-import Profile from './Routes/Profile';
+import EmployeeDash from './Routes/EmployeeDash';
 import Training from './Routes/Training';
 import Login from './Routes/Login';
 import ManagerDash from './Routes/ManagerDash';
+import Navbar from './Components/Navbar';
 
 
 // Import the recipe components
@@ -24,9 +25,11 @@ function App() {
   return (
     <Router>
       <div>
+        <Navbar/>
         <Routes>
-        <Route path="/" element={<Login />} />
-          <Route path="/Profile" element={<PrivateRoute element={<Profile />} />} />
+          <Route path="/" element={<Login />} />
+          <Route path="/EmployeeDash" element={<PrivateRoute element={<EmployeeDash />} />} />
+          <Route path="/Training" element={<PrivateRoute element={<Training />} />} /> 
           <Route path="/ManagerDash" element={<PrivateRoute element={<ManagerDash />} />} />
 
 
