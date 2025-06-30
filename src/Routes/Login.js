@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import './css/login.css';
 
 const Login = () => {
@@ -15,12 +14,19 @@ const Login = () => {
     }
   };
 
-  return (
-    <div className="login-container">
-      <h2>Select Profile</h2>
-      <button onClick={() => handleRoleSelect('employee')}>Employee</button>
-      <button onClick={() => handleRoleSelect('manager')}>Manager</button>
-    </div>
+   return (
+    <div className="login-background">
+        <div className="login-buttons">
+          <button onClick={() => handleRoleSelect('employee')} className="login-button">
+            <span>Employee</span>
+          </button>
+          <button onClick={() => handleRoleSelect('manager')} className="login-button">
+            <i class="bi bi-door-open-fill"></i>
+            <span>Manager</span>
+          </button>
+        </div>
+      </div>
+
   );
 };
 

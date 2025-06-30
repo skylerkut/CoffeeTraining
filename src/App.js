@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import EmployeeDash from './Routes/EmployeeDash';
 import Training from './Routes/Training';
@@ -25,7 +24,6 @@ function App() {
   return (
     <Router>
       <div>
-        <Navbar/>
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/EmployeeDash" element={<PrivateRoute element={<EmployeeDash />} />} />
@@ -53,6 +51,7 @@ function App() {
           <Route path="/recipes/pastries/:pastriesid" element={<Pastries />} />
           <Route path="/recipes/panning/:panningid" element={<Panning />} />
         </Routes>
+       <Navbar/>
       </div>
     </Router>
   );
