@@ -17,7 +17,7 @@ function Navbar() {
               </li>
 
               {/* Employee Access */}
-              {role === 'employee' || role === 'manager' && (
+              {role === 'employee' && (
                 <>
               <li>
                 <Link to="/EmployeeDash" className="nav-link text-white">Employee Dashboard</Link>

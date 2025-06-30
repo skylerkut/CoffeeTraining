@@ -26,6 +26,7 @@ const Login = () => {
     <div className="login-background">
         <div className="login-buttons">
           <button onClick={() => handleRoleSelect('employee')} className="login-button">
+            <i class="bi bi-person-badge-fill"></i>
             <span>Employee</span>
           </button>
           <button onClick={() => handleRoleSelect('manager')} className="login-button">
