@@ -1,16 +1,24 @@
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useContext } from 'react';
+import AppContext from '../AppContext';
 import './css/login.css';
 
 const Login = () => {
   const navigate = useNavigate();
-
-    const handleRoleSelect = (account) => {
+  const { setRole } = useContext(AppContext);
+  
+  const handleRoleSelect = (role) => {
     // Remember what account was selected
-    localStorage.setItem('employee', account);
-    if (account === 'manager') {
+    setRole(role);
+
+    if (role === 'manager') {
       navigate('/ManagerDash'); //Nav to manager dashbaord
-    } else {
-      navigate('/EmployeeDash'); //to employee profile
+    } 
+    if(role === 'employee'){
+      navigate('/EmployeeDash'); //Nav to employee dashbaord
+    }else {
+      navigate('/'); 
     }
   };
 

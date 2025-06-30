@@ -1,11 +1,12 @@
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import React, { useState, useContext } from 'react';
+import AppContext from './AppContext';
+//import routes
 import EmployeeDash from './Routes/EmployeeDash';
 import Training from './Routes/Training';
 import Login from './Routes/Login';
 import ManagerDash from './Routes/ManagerDash';
 import Navbar from './Components/Navbar';
-
-
 // Import the recipe components
 import Breakfast from './recipes/Breakfast';
 import ColdSandwiches from './recipes/ColdSandwiches';
@@ -15,13 +16,14 @@ import Pastries from './recipes/Pastries';
 import Pizza from './recipes/Pizza';
 import Salads from './recipes/Salads';
 import Soup from './recipes/Soup';
-
+//bootstrap for design
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function App() {
-
+      const [role, setRole] = useState(null);
   return (
+        <AppContext.Provider value={{ role, setRole }}>
     <Router>
       <div>
         <Routes>
@@ -54,13 +56,13 @@ function App() {
        <Navbar/>
       </div>
     </Router>
+    </AppContext.Provider>
   );
 }
 
-//PrivateRoute is a custom higher-order component (HOC) that checks authentication
+//checks authentication
 function PrivateRoute({ element }) {
-  const role = localStorage.getItem('employee'); //Check if logged in
-  return role ? element : <Navigate to="/" />; //Allow access if logged in
+  const { role } = useContext(AppContext); // read from context
+  return role ? element : <Navigate to="/" />;
 }
-
 export default App;
