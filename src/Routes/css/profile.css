@@ -69,12 +69,10 @@ body {
     z-index: 1000;
     width: 100%;
     background-color: #1a202c;
-    /* same as your breadcrumb background */
 }
 
 .breadcrumb {
     margin-bottom: 0;
-    /* remove bottom margin for fitting */
 }
 
 /* To ensure the breadcrumb stretches full width */
@@ -87,12 +85,10 @@ body {
 
 .breadcrumb-item a {
     color: #fff;
-    /* Replace 'desiredColor' with the hex or rgb value of the color you want. */
 }
 
 .breadcrumb-item a:hover {
     color: #495057;
-    /* Replace 'anotherColor' with the hex or rgb value for hover state color. */
 }
 
 .header {
